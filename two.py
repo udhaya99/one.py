@@ -5,7 +5,7 @@ if(x>0):
   else:
     print("Odd")
  else:
- print("Invalid")
+  print("Invalid")
 
 
 
