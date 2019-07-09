@@ -4,7 +4,7 @@ if(x>0):
     print("Even")
   else:
     print("Odd")
- else:
+else:
   print("Invalid")
 
 
