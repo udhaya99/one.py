@@ -5,5 +5,5 @@ if len(x)<2:
     print("Vowels")
   else:
     print("Consonants")
- else:
+else:
   print("invalid")
