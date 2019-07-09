@@ -1,3 +1,3 @@
-x,y,z=input.split()
+x,y,z=input().split()
 print(max(x,y,z))
 
