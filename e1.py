@@ -1,3 +1,2 @@
-x=input().split()
-u=x[0]**x[1] 
-print(u)
+x=list(map(int,input().split()))
+print(x[0]**x[1]) 
