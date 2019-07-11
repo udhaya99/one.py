@@ -1,5 +1,3 @@
 x=input().split()
-a=x[0]
-b=x[1]
-u=a**b 
+u=x[0]**x[1] 
 print(u)
