@@ -1,13 +1,13 @@
-vizh,bob=input().strip().split(" ")
-bob=int(bob)
+x,y=input().strip().split(" ")
+y=int(y)
 z=0
-while z<len(vizh)-1 and bob:
-	if(vizh[z]>vizh[z+1]):
-		bob-=1
-		vizh=vizh[:z]+vizh[z+1:]
+while z<len(x)-1 and y:
+	if(x[z]>x[z+1]):
+		y-=1
+		x=x[:z]+x[z+1:]
 		if(z!=0):
 			z-=1
 	else:
 		z+=1
-vjj=vizh[:len(vizh)-bob]
-print(vjj)
+v=x[:len(x)-y]
+print(v)
