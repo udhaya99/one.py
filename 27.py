@@ -1,6 +1,6 @@
 x=input()
 y=x.isnumeric()
 if(y==True):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
