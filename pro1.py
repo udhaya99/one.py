@@ -1,8 +1,8 @@
-def longe(strg1,strg2):
-    if strg1 in strg2:
-        return strg1
+def longe(str1,str2):
+    if str1 in str2:
+        return str1
     else:
-        return longe(strg1[0:len(strg)-1],strg2)
+        return longe(str1[0:len(str)-1],str2)
 n=int(input())
 list=[]
 for _ in range(0,n):
